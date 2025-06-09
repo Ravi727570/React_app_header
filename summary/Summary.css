@@ -1,0 +1,10 @@
+.summary {
+    max-width: 40rem;
+    margin: 10rem auto;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #383838;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }  
