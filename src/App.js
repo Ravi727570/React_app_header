@@ -3,8 +3,6 @@ import "./App.css";
 import Header from "./header/Header";
 import Summary from "./summary/Summary";
 
-//import CartModal from "./cart/CartModal";
-//import CartContext, { CartProvider } from "./cart/CartContext";
 
 function App() {
   
