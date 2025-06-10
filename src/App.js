@@ -36,7 +36,18 @@ function App() {
         <CartModal
           cartItems={cartItems}
           onCloseCart={() => setIsCartOpen(false)}
-        />
+          onAddItem={addToCart}
+          onRemoveItem={(id) => {
+          setCartItems((prevItems) =>
+            prevItems
+              .map((item) =>
+              item.id === id ? { ...item, amount: item.amount - 1 } : item
+            )
+          .filter((item) => item.amount > 0)
+    );
+  }}
+/>
+
       )}
     </div>
   );
