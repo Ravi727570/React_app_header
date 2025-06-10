@@ -10,100 +10,59 @@
 
 .modal {
   position: fixed;
-  top: 20%;
+  top: 20vh;
   left: 50%;
-  transform: translate(-50%, -20%);
-  width: 40%;
+  transform: translateX(-50%);
   background: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 30rem;
   z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
-.cart-items {
-  list-style: none;
-  padding: 0;
+.cart-header {
+  margin-bottom: 0.5rem;
 }
 
-.cart-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 0;
-  border-bottom: 2px solid #8a2b06;
-}
-
-.item-details {
-  display: flex;
-  flex-direction: column;
-}
-
-.item-name {
-  font-weight: bold;
-}
-
-.item-price {
-  color: #8a2b06;
-  font-size: 0.9rem;
-}
-
-.item-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.item-quantity {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.minus-btn,
-.plus-btn {
-  border: none;
-  background: #8a2b06;
-  color: white;
-  font-size: 1rem;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.minus-btn {
-  background: #ccc;
+.cart-product-name {
+  font-size: 0.75rem;
+  color: #333;
 }
 
 .cart-total {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-weight: bold;
-  margin-top: 1rem;
+  font-size: 1.25rem;
+  margin: 1rem 0;
 }
 
 .cart-actions {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  margin-top: 1rem;
+  gap: 1rem;
 }
 
 .close-button,
 .order-button {
-  padding: 0.5rem 1rem;
-  border: none;
+  padding: 0.5rem 1.5rem;
   border-radius: 20px;
-  cursor: pointer;
   font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
 }
 
 .close-button {
-  background: white;
-  border: 1px solid #8a2b06;
-  color: #8a2b06;
+  background: transparent;
+  color: #600000;
+  border: 1px solid #600000;
 }
 
 .order-button {
-  background: #8a2b06;
+  background-color: #600000;
   color: white;
 }
