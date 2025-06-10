@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./header/Header";
 import Summary from "./summary/Summary";
 import Meals from "./meals/Meals";
+import CartModal from "./cart/CartModal";
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
         <main className="content">
           <Summary />
           <Meals />
+          <CartModal/>
         </main>
       </div>
     
