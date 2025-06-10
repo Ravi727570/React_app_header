@@ -3,7 +3,11 @@ import "./App.css";
 import Header from "./header/Header";
 import Summary from "./summary/Summary";
 import Meals from "./meals/Meals";
+import './cart/CartModal.css';
 import CartModal from "./cart/CartModal";
+//import from "./cart/CartContext";
+
+
 
 function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
