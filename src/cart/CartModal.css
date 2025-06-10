@@ -14,9 +14,9 @@
   left: 50%;
   transform: translateX(-50%);
   background: white;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 12px;
-  width: 90%;
+  width: 60%;
   max-width: 30rem;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
